@@ -13,6 +13,18 @@ keypoints:
 - "MarcEdit can be used to open and edit MARC files"
 - "MarcEdit can be used to convert between several different metadata formats, including different expressions of MARC such as MARCXML and Mnemonic MARC"
 ---
+## This workshop
+In this workshop, learners can expect to have 3 hours of hands-on library metadata experience in a friendly, inclusive, beginner-friendly environment! We will be working with MARC (MAchine Readable Cataloguing) bibliographic records. We will walk through the structure of a MARC record, as well as how to download and modify MARC records using MarcEdit (a free and common tool in metatadata and cataloguing departments) and regular expressions (a way of pattern matching that is used by many computer programs and programming languages).
+
+Participants are required to have a computer with MarcEdit installed. It is available here: https://marcedit.reeset.net/downloads (participants can email me in advance for help with set-up if needed)
+
+Learning Outcomes:
+Recognize the general structure of a MARC record
+Be able to download records from library catalogues, such as WorldCat or Library of Congress, using Z39.50 protocols and MarcEdit
+Recognize common regular expressions metacharacters
+Use regular expressions to modify MARC records
+
+
 ## What is MarcEdit?
 
 MarcEdit is a suite of tools created and maintained by Terry Reese. The tools together form the MarcEdit software which can be used to create, edit and work with library metadata, particularly (although not limited to) records in MARC format. MarcEdit can be used to
