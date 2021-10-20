@@ -24,6 +24,6 @@ Within each MARC bibliographic record, there are fields and subfields, and each 
 
 We won't get too bogged down on details of MARC right now, but to provide one example:
 
-245	00 $a Spudwrench $h [videorecording] : $b Kahnawake man / $c a National Film Board of Canada production.
+` 245	00 $a Spudwrench $h [videorecording] : $b Kahnawake man / $c a National Film Board of Canada production. `
 
 This is an example 245 field, and the indicators are 00. There is a subfield a,h,b,c - which we can identify by the dollarsigns that come before them in MarcEdit.
