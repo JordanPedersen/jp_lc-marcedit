@@ -1,5 +1,5 @@
 ---
-title: "Tasks and Automation"
+title: "Regular Expressions"
 teaching: 0
 exercises: 0
 questions:
@@ -15,5 +15,8 @@ keypoints:
 ---
 {% include links.md %}
 
+# Introducing Regular Expressions
+
+# Using Regular Expressions with find and replace
 
 # Tasks and Automation
