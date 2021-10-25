@@ -16,7 +16,9 @@ keypoints:
 
 
 # Install requirements
+This section is really only possible if either all learners are using PCs, or if there are explicit instructions to install everything needed to support the Z39.50 client for the Mac version: https://marcedit.reeset.net/marcedit-mac-enabling-z39-50-support
 
+In all liklihood we will not do these exercises because the other skills required (using the terminal to install homebrew and yaz, which might be too much (and really not critical to being able to use MarcEdit).
 
 # Bringing records into the MARC editor
 
