@@ -19,10 +19,10 @@ In this workshop, learners can expect to have 3 hours of hands-on library metada
 Participants are required to have a computer with MarcEdit installed. It is available here: https://marcedit.reeset.net/downloads (participants can email me in advance for help with set-up if needed)
 
 Learning Outcomes:
-Recognize the general structure of a MARC record
-Be able to download records from library catalogues, such as WorldCat or Library of Congress, using Z39.50 protocols and MarcEdit
-Recognize common regular expressions metacharacters
-Use regular expressions to modify MARC records
+- Recognize the general structure of a MARC record
+- Be able to download records from library catalogues, such as WorldCat or Library of Congress, using Z39.50 protocols and MarcEdit
+- Recognize common regular expressions metacharacters
+- Use regular expressions to modify MARC records
 
 
 ## What is MarcEdit?
