@@ -15,6 +15,9 @@ keypoints:
 {% include links.md %}
 
 
+# Install requirements
+
+
 # Bringing records into the MARC editor
 
 With MarcEdit we are able to open files, but we can also import records from various catalogues around the world if we would like. This process requires setting up a Z39.50 client in MarcEdit. Z39.50 is an international standard for communicating with databases, and is used by a lot of library applications. The way that we are going to use it is to query the University of Toronto Library catalogue for records.
@@ -23,11 +26,13 @@ With MarcEdit we are able to open files, but we can also import records from var
 2. Click on Modify Databases from the menu on the left side.
 3. Click on Add Database from the Options menu, and choose "Add New Z39.50 Server."
 4. Fill in the form as follows:
-` Name: University of Toronto (Alma)
+
+
+`Name: University of Toronto (Alma)
 Host: utoronto.alma.exlibrisgroup.com
 Database: 01UTORONTO_INST
 Port: 1921
-Syntax: MARC21 `
+Syntax: MARC21`
 
 5. Ensure Show Database is checked.
 6. Click Save.
