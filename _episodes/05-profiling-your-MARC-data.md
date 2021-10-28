@@ -28,5 +28,8 @@ The first thing that we will do once we have the marceditor open is to open a fi
 Because our marc files can be quite large (tens of thousands of records), it is helpful to be able to get an overview of our data. A report that is used commonly (and is handily built-in) is the field count report. To access the report, go to the top of the page, click on reports, then "field count report". This report will show you the number of times each field occurs in your file. This is helpful if you want to see at a quick glance how robust files are, or if you want to see if fields have been repeated an excessive number of times, which may indicate the records were created by webscraping and are actually of poor quality.
 
 
+## Following up with find
+We might notice that there are a tonne of 650 fields in these records (497 for only 40 records), which could be suspicious, especially if that isn't divided evenly amongst records. To follow up on things like this we can use find. 
 
+It looks like some of our records have lots of 650 fields. We can click on them and jump to record, and we can determine if the file looks like it is good quality or not (would it be useful to our users if they searched by any of these subject terms).
 
