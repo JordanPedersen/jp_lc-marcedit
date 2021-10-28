@@ -74,3 +74,6 @@ Note: match case can be finicky!
 ###Exercise###
 Use tools, change indicators for 650 "\0" which stands for no level of encoding specified, library of congress subject heading to "\4" which means the source of the subject heading is not specified.
 
+
+# Introducing Special Undo
+When making record changes, if you find that the wrong records were altered or that you would like to undo the operation, select Edit > Special Undo. 
