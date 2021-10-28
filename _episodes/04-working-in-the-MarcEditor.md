@@ -22,6 +22,8 @@ In all liklihood we will not do these exercises because the other skills require
 
 # Bringing records into the MARC editor
 
+## Downloading records using the Z39.50 client
+
 With MarcEdit we are able to open files, but we can also import records from various catalogues around the world if we would like. This process requires setting up a Z39.50 client in MarcEdit. Z39.50 is an international standard for communicating with databases, and is used by a lot of library applications. The way that we are going to use it is to query the University of Toronto Library catalogue for records.
 
 1. Open the MarcEdit program. Click on the icon labelled Z39.50/SRU Client.
@@ -50,12 +52,9 @@ For a list of all attributes you can search using the Z39.50 client, this is a g
 For other Z39.50 databases, and the attribute searching that they allow: ( http://irspy.indexdata.com/ ) . 
 
 
-# Bringing in records with the ISBN 0199370680
+## Downloading single records
 
-In Z39.50 
-
-Search mode, search by ISBN 0199370680. Ensure that "retrieve unicode" is checked, and that UTF8 is selected as the server character set (this will keep non-Roman characters from being corrupted because UTF8 is the way we format our records).
-
+In Z39.50 client we will search by ISBN for ISBN 0199370680. Ensure that "retrieve unicode" is checked, and that UTF8 is selected as the server character set (this will keep non-Roman characters from being corrupted because UTF8 is the way we format our records).
 
 Click on a result and choose "View selected record". While we have the record open, on windows you will see an option to change the save file path (I recommend just saving to your desktop for this workshop) and then click on "Download record". For mac users, you will select the record, click on "Download selected records" and then change the save file path and Download. I'm calling mine Mcwhinney (the .mrc extension will be added automatically).
 
@@ -64,13 +63,10 @@ Download another record.
 Maybe talk about appending.
 
 
-# Batch mode
+## Downloading using batch mode
 
-To be most efficient, we will often want to download records in groups. Because we have a file called "Mcwhinney", I'm going to download a batch of records about horses and medicine (their subject contains "horse" or "medicine"). To do this we'll switch to searching by subject, and we'll use the file that is shared as our input. 
+To be efficient, we will often want to download records in groups. For example, sometimes we might have a list of ISBNs from a publishers and we want to check out the record quality of what we've loaded, because they are offering to sell us better records. 
 
-We'll need to set the download path again. I'll save mine on my desktop and call it "horse_batch". Our other unicode settings will stay the same. If we keep our record limit to 20, we will only take the first 20 results from each search. We can download larger batches, but for our workshop today we'll stick to our 40 records (20 with the subject horse, 20 with the subject medicine).
+Because we have a file called "Mcwhinney", I'm going to download a batch of records about horses and medicine (their subject contains "horse" or "medicine"). To do this we'll switch to searching by subject, and we'll use the file that is shared as our input. 
 
-
-
-
-
+We'll need to set the download path again. I'll save mine on my desktop and call it "horse_batch". Our other unicode settings will stay the same. If we keep our record limit to 20, we will only take the first 20 results from each search. We can download much larger batches, but for our workshop today we'll stick to our 40 records (20 with the subject horse, 20 with the subject medicine) for the sake of time.
